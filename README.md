@@ -14,5 +14,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-##The server
+### The server
 To run the server, you must cd to the server folder, and run the command "npx nodemon"
