@@ -14,7 +14,7 @@ const PersonasErrores = Yup.object().shape({
         .email('El correo ingresado no tiene formato válido'),
     doc: Yup.number()
         .integer('Debe ser numero entero')
-        .required('Se necesita el numero de documento si o si.')
+        .required('El número de documento es requerido.')
         .positive('No puede ser negativo'),
     tel: Yup.number()
         .integer('Debe ser numero entero')

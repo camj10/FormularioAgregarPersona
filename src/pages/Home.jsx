@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <h1>Home</h1>
-            <button><Link to='/personas/agregar'>Agregar persona</Link></button>
+            <button type="button" class="btn btn-outline-primary"><Link to='/personas/agregar'>Agregar persona</Link></button>
         </>
     )
 }
